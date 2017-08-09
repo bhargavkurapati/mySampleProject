@@ -1,0 +1,2 @@
+# mySampleProject
+for UI testing
