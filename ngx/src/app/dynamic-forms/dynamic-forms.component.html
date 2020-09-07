@@ -1,0 +1,51 @@
+<!-- <p>dynamic-forms works!</p>
+<div>
+    <form  (ngSubmit)="onSubmit()">
+        <div formGroup="userProfileForm">
+        <label>
+            First Name:
+            <input type="text" formControlName="firstName" />
+        </label>
+        <label>
+            Last Name:
+            <input type="text" formControlName="lastName" />
+        </label>
+        <div formGroupName="adress">
+            <h3>Adress</h3>
+            <label>
+                Address1:
+                <input type="text" formControlName="address1" />
+            </label>
+            <label>
+                Address2:
+                <input type="text" formControlName="address2" />
+            </label>
+            <label>
+                state:
+                <input type="text" formControlName="state" />
+            </label>
+            <label>
+                Zip:
+                <input type="text" formControlName="zip" />
+            </label> 
+            
+            <div formArrayName="mobiles">
+                <h3>Mobiles</h3> <button (click)="addMobiles()">Add Alias</button>
+          
+                <div *ngFor="let mob of mobiles.controls; let i=index">
+                   
+                    <label>
+                       <h3>Mobile{{i+1}}  </h3>       
+                           <input type="text" [formControlName]="i" />
+                    </label>
+                </div>
+          </div>
+
+        </div>
+        <label>
+            <button type="submit" [disabled]="!userProfileForm.valid">Submit</button>
+        </label>
+        </div>
+    </form>
+</div> -->
+

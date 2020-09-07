@@ -1,0 +1,331 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 class="card-header bg-info">
+    Welcome to NGX - {{ title }}!
+  </h1>
+  <h3 class="text-secondary">
+    PEV Selling Countries
+  </h3>
+  <div class="row ml-5">
+    <div class="col">
+        <div class="row">
+          <h4>
+            Vertical Bar Chart
+          </h4>
+        </div>
+        <div class="row">
+              <ngx-charts-bar-vertical
+              [view]="view"
+              [scheme]="colorScheme"
+              [results]="single"
+              [gradient]="gradient"
+              [xAxis]="showXAxis"
+              [yAxis]="showYAxis"
+              [legend]="showLegend"
+              [showXAxisLabel]="showXAxisLabel"
+              [showYAxisLabel]="showYAxisLabel"
+              [xAxisLabel]="xAxisLabel"
+              [yAxisLabel]="yAxisLabel"
+              (select)="onSelect($event)">
+              </ngx-charts-bar-vertical>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <h4>
+            Vertical Bar Chart Normalized
+          </h4>
+        </div>
+        <div class="row">
+          <ngx-charts-bar-vertical-normalized
+          [view]="view"
+          [scheme]="colorScheme"
+          [results]="multi"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          (select)="onSelect($event)">
+          </ngx-charts-bar-vertical-normalized>
+        </div>
+      </div>
+    </div>
+    <div class="row ml-5">
+      <div class="col">
+        <div class="row">
+          <h4>
+            Stacked Vertical Bar Chart
+          </h4>
+      </div>
+     <div class="form-group row ml-5">
+      <ngx-charts-bar-vertical-stacked
+      [view]="view"
+      [scheme]="colorScheme"
+      [results]="multi"
+      [gradient]="gradient"
+      [xAxis]="showXAxis"
+      [yAxis]="showYAxis"
+      [legend]="showLegend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      (select)="onSelect($event)">
+      </ngx-charts-bar-vertical-stacked>
+    </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+          Heat Maps
+        </h4>
+      </div>
+      <div class="row">
+        <app-heat-maps></app-heat-maps>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+      <div class="col">
+        <div class="row">
+          <h4>
+            Line Chart
+          </h4>
+      </div>
+     <div class="row ml-5">
+        <app-custom-charts></app-custom-charts>
+    </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+          Application Migration Progress
+        </h4>
+      </div>
+      <div class="row">
+        <app-pie-chart-grid></app-pie-chart-grid>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+      <div class="col">
+        <div class="row">
+          <h4>
+           Area charts
+          </h4>
+      </div>
+     <div class="row ml-5">
+        <app-area-charts></app-area-charts>
+    </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+          Stacked Area Charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-area-charts-stacked></app-area-charts-stacked>
+      </div>
+    </div>
+  </div>
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+          Simple-Pie-charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-pie-chart></app-pie-chart>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+          Advanced Pie charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-pie-chart-advanced></app-pie-chart-advanced>
+      </div>
+    </div>
+    </div>
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+         Normalized Area charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-normlizd-area-chart></app-normlizd-area-chart>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+          bubble charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-buble-chart></app-buble-chart>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+         Tree Map charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-tree-chart></app-tree-chart>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+        Linear Gauge Chart
+        </h4>
+      </div>
+      <div class="row">
+        <app-linear-gauge-chart></app-linear-gauge-chart>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+         Guage charts
+        </h4>
+      </div>
+      <div class="row">
+        <app-guage-chart></app-guage-chart>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+        Polar Chart
+        </h4>
+      </div>
+      <div class="row">
+        <app-polar-chart></app-polar-chart>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+         Number Chart
+        </h4>
+      </div>
+      <div class="row">
+        <app-number-chart></app-number-chart>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+        Horizontal Bar Chart
+        </h4>
+      </div>
+      <div class="row">
+        <app-bar-chart-horizontal></app-bar-chart-horizontal>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+    <div class="col">
+      <div class="row">
+        <h4>
+          Horizontal Bar Chart - Grouped
+        </h4>
+      </div>
+      <div class="row">
+        <app-bar-chart-horizontal-grouped></app-bar-chart-horizontal-grouped>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <h4>
+      chart goes here....
+        </h4>
+      </div>
+      <div class="row">
+        chart goes here....
+      </div>
+    </div>
+    </div>
+    
+    <div class="row ml-5">
+      <div class="col">
+      <div class="row">
+        <h4>
+       Heat Map Calender Chart
+        </h4>
+      </div>
+      <div class="row">
+        <app-heat-chart-calender></app-heat-chart-calender>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ml-5">
+      <div class="col">
+      <div class="row">
+        <h4>
+          app-nvd-charts
+        </h4>
+      </div>
+      <div class="row">
+        
+      </div>
+    </div>
+    </div>
+</div> 
+
+
+<h1>NGX - Graphs</h1>
+<div style="width: 80%; height:auto;  margin:10%; border:1px solid #00f">
+  <app-graph1></app-graph1>
+</div>
+
+<h1>hierarchicalGraph-1</h1>
+<div style="width: 80%; height:auto;  margin:10%; border:1px solid #00f">
+  <app-graph2></app-graph2>
+</div>
+
+<!-- <h1>hierarchicalGraph-2</h1>
+<div style="width: 80%; height:auto;  margin:10%; border:1px solid #00f">
+  <app-graph3></app-graph3>
+</div> -->
+<h1>hierarchicalGraph-2</h1>
+<div style="width: 100%; height:auto;  margin:2%; border:1px solid #00f">
+  <app-graph4></app-graph4>
+</div>
+
+
+
+<!-- 
+<div style="width: 80%; margin:10%; border:1px solid #00f">
+  <h1>NVD3 -CHARTS</h1>
+      <app-nvd3-sine-cos></app-nvd3-sine-cos>
+</div>
+<div style="width: 80%; margin:10%; border:1px solid #00f">
+  <app-nvd3></app-nvd3>
+</div> -->
