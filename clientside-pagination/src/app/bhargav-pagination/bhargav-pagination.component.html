@@ -1,0 +1,64 @@
+
+
+                <div
+                *ngIf="currentTemplate.sectionName != 'Architectural Diagram' && currentTemplate.sectionName != 'Migration Approach Diagram'">
+                            <div class="clr-row" >
+                    <div class="clr-col-6 mt-10"><label class="clr-control-label ml-2 brand-text"></label></div>
+                    <div class="ta-r clr-col-6">
+                      <div class="btn-group btn-outline btn-icon btn-sm mr-0">
+                        <button [disabled]="colCounter==0" type="button" class="btn" aria-label="Previous" (click)="colBwd()"
+                          title="Previous Columns">
+                          <clr-icon shape="angle left"></clr-icon>
+                        </button>
+                        <button type="button" class="btn" [disabled]="colCounter+maxCol-1>=currentTemplate.attributes.length+5"
+                          aria-label="Next"  (click)="colFwd()" title="Next Columns">
+                          <clr-icon shape="angle right"></clr-icon>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- this is the one -->
+
+                  
+
+                <table class="table table-compact mt-0">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <ng-container *ngFor="let headerColumn of currentTemplate.attributes;let i = index;">
+                                <ng-container>
+                                  <th [ngClass]="{'br-1x-black' : colCounter>0&&i==0}">{{headerColumn.attributeName}}</th>
+                                </ng-container>
+                              </ng-container>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- { itemsPerPage: 5, currentPage: p } -->
+                   <ng-container *ngFor="let row of pageList">
+                    <tr>
+                        <td><a class="link margin1" (click)="onEditRow(row.rowID)"
+                            *ngIf="currentTemplate.sectionEdit != 0">
+                            <clr-icon shape="pencil"></clr-icon>
+                        </a>
+                    </td>
+                      <ng-container *ngFor="let bItem of row.dataValues;let i = index;">
+                        <ng-container >
+                          <td class="nline" [ngClass]="{'br-1x-black' : colCounter>0&&i==0}">{{bItem.values}}</td>
+                        </ng-container>
+                      </ng-container>
+                    </tr>
+                  </ng-container>
+
+                    </tbody>
+                </table>
+
+                
+
+                  <div class="bhargavPagination">
+                    <input type="button" id="_first" (click)="pageControls('_f')" value="First" />
+                    <input type="button" id="_previous" (click)="pageControls('_p')" value="<" />
+                    <span>{{currentPageNo}}/{{totalPages}}</span>
+                    <input type="button" id="_next" (click)="pageControls('_n')" value=">" />
+                    <input type="button" id="_last" (click)="pageControls('_l')" value="Last" />
+                  </div>
+

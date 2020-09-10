@@ -1,0 +1,76 @@
+.table {
+    border-collapse: separate;
+    border: 1px solid #cccccc;
+    border-radius: 0.125rem;
+    background-color: white;
+    color: #575757;
+    margin: 0;
+    margin-top: 1rem;
+    max-width: 100%;
+    width: 100%;
+}
+thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.table.table-compact th, .table.table-compact td {
+    padding-top: calc(0.2083333rem + 1px);
+    padding-bottom: 0.2083333rem;
+}
+
+.table th {
+    color: #575757;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background-color: #fafafa;
+    vertical-align: bottom;
+    border-bottom: 1px solid #cccccc;
+    border-top: 0 none;
+}
+
+.table th, .table td {
+    font-size: 0.8rem;
+    line-height: 0.85rem;
+    border-top: 1px solid #ededed;
+    padding: 0.4583333333rem 0.5rem 0.4583333333rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.bhargavPagination{
+    display: flex;
+    width: 9rem;
+    float: left; 
+    border:1px solid #aaa;
+    border-radius: 5px;
+    margin:1rem
+}
+.bhargavPagination input{
+    min-width:  1rem;
+    max-width: auto;
+    border:0px solid #aaa;
+    padding:.1rem;
+    border-radius: 5px;
+    margin: 0rem 0.1rem;
+    background-color: #fff;
+    color:#aaa;
+}
+.bhargavPagination input:hover{
+   
+    background-color: #eee;
+    color:#000;
+}
+.bhargavPagination span{
+    width: 2rem;
+    border:0px solid #aaa;
+    padding:.1rem .2rem;
+    border-radius: 5px;
+    margin: 0rem 0.1rem;
+    background-color: rgb(255, 255, 255);
+    color:darkblue;
+    font-size:.6rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}

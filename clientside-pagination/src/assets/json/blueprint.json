@@ -1,0 +1,2273 @@
+{
+  "bluePrint": {
+    "assessmentInfo": {
+      "assessmentType": "Blueprint",
+      "updatedBy": "NA",
+      "environmentCode": "All",
+      "accountName": "mitie",
+      "version": "001",
+      "createdAt": "2020-08-10 11:14:11",
+      "environment": [
+        "All"
+      ],
+      "createdBy": "dchelp",
+      "applicationID": "MIS0110",
+      "projectName": "cmat",
+      "applicationName": "IIS",
+      "updatedAt": "0000-00-00 00:00:00"
+    },
+    "bluePrintId": 2,
+    "sections": [
+      {
+        "sectionName": "Application Profile",
+        "sectionEdit": "1",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "IIS"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "MIS0110"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "Mitie operates many internal and external websites providing services to the business.  These websites are hosted on an IIS web farm that is highly available.  Four servers are hosted in two separate datacentres (two in each) and web content and configurations are synchronised across the web servers using DFS.  This is achieved by each webserver being a domain member of the MITIEGRP domain.  "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "Platinum"
+              },
+              {
+                "values": "Business Priority is Low as per CBIS. For Prod, application tier as Platinum and for QA, its mentioned as Bronze. As per Master Reference, For PROD its mentioned as GOLD. Need clarification"
+              },
+              {
+                "values": "COTS"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "Low, Business Critical application"
+              },
+              {
+                "values": "Many mission critical websites are hosted on the IIS web farm."
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "Yes"
+              },
+              {
+                "values": "SQL 2016 AlwaysOn Availabilty Group for IIS (Connected through IIS Databases AAG Listener)"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "IIS"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "Production\nQA"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "Yes"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "Mitie "
+              },
+              {
+                "values": "Mitie is managing IIS and Vodafone will patch the servers "
+              },
+              {
+                "values": "GRL and SWI"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "0"
+              },
+              {
+                "values": ""
+              }
+            ],
+            "rowID": "0"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Application Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Comments_Application Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Application ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "Comments_App_ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "Application Description",
+            "attributeType": "Textarea",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "Comments_App_Desc",
+            "attributeType": "Textarea",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "Application SLA",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "8",
+            "attributeOptions": [],
+            "attributeName": "Comments_Application_SLA",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "9",
+            "attributeOptions": [],
+            "attributeName": "Application Type",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "10",
+            "attributeOptions": [],
+            "attributeName": "Comments_Type",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "11",
+            "attributeOptions": [],
+            "attributeName": "Application Criticality",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "12",
+            "attributeOptions": [],
+            "attributeName": "Comments_Criticality",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "13",
+            "attributeOptions": [],
+            "attributeName": "Deployment Architecture",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "14",
+            "attributeOptions": [],
+            "attributeName": "Comments_Dep_Arch",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "15",
+            "attributeOptions": [],
+            "attributeName": "Does the application have external dependencies or Integration points",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "16",
+            "attributeOptions": [],
+            "attributeName": "Comments_depend",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "17",
+            "attributeOptions": [],
+            "attributeName": "Inbound/Outbound Applications",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "18",
+            "attributeOptions": [],
+            "attributeName": "Comments_IO",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "19",
+            "attributeOptions": [],
+            "attributeName": "Application Access Type",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "20",
+            "attributeOptions": [],
+            "attributeName": "Comments_App_Access_Type",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "21",
+            "attributeOptions": [],
+            "attributeName": "Application OS Platform",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "22",
+            "attributeOptions": [],
+            "attributeName": "Comments_os",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "23",
+            "attributeOptions": [],
+            "attributeName": "Application WEB Platform",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "24",
+            "attributeOptions": [],
+            "attributeName": "Comments_web",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "25",
+            "attributeOptions": [],
+            "attributeName": "Application APP Platform",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "26",
+            "attributeOptions": [],
+            "attributeName": "Comments_app",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "27",
+            "attributeOptions": [],
+            "attributeName": "Application DB Platform",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "28",
+            "attributeOptions": [],
+            "attributeName": "Comments_db",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "29",
+            "attributeOptions": [],
+            "attributeName": "Application Database Servers",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "30",
+            "attributeOptions": [],
+            "attributeName": "Comments_db_servers",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "31",
+            "attributeOptions": [],
+            "attributeName": "Vendor Application Details (COTS)",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "32",
+            "attributeOptions": [],
+            "attributeName": "Comments_cots",
+            "attributeType": "Textarea",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "33",
+            "attributeOptions": [],
+            "attributeName": "Application Environment",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "34",
+            "attributeOptions": [],
+            "attributeName": "Comments_env",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "35",
+            "attributeOptions": [],
+            "attributeName": "Load Balancer",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "36",
+            "attributeOptions": [],
+            "attributeName": "Comments_lb",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "37",
+            "attributeOptions": [],
+            "attributeName": "Additional Design Consideration",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "38",
+            "attributeOptions": [],
+            "attributeName": "Comments_addt_design",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "39",
+            "attributeOptions": [],
+            "attributeName": "Application Managed By",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "40",
+            "attributeOptions": [],
+            "attributeName": "Comments_mng_by",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "41",
+            "attributeOptions": [],
+            "attributeName": "Data-Centre Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "42",
+            "attributeOptions": [],
+            "attributeName": "Comments_dc",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "43",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "44",
+            "attributeOptions": [],
+            "attributeName": "Comments_id",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "0",
+        "parentID": "0"
+      },
+      {
+        "sectionName": "Source Server Details",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": " GRL"
+              },
+              {
+                "values": " Platinum"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": " GRL"
+              },
+              {
+                "values": " Platinum"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": " SWI"
+              },
+              {
+                "values": " Platinum"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": " SWI"
+              },
+              {
+                "values": " Platinum"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": " GRL"
+              },
+              {
+                "values": " Bronze"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": " SWI"
+              },
+              {
+                "values": " Bronze"
+              },
+              {
+                "values": "Windows 2012 R2"
+              },
+              {
+                "values": "2"
+              },
+              {
+                "values": "8"
+              },
+              {
+                "values": "IIS 8.5"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Location",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "SLA",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "OperatingSystem_Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "CPU",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "Memory",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "8",
+            "attributeOptions": [],
+            "attributeName": "Web_NameVersion",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "9",
+            "attributeOptions": [],
+            "attributeName": "App_NameVersion",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "10",
+            "attributeOptions": [],
+            "attributeName": "Database_Name_Version",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "11",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "1",
+        "parentID": "1"
+      },
+      {
+        "sectionName": "Database Specifications",
+        "sectionEdit": "0",
+        "data": [],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Server Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Role",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Database Version",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "Instance Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "Database Name",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "Storage",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "Port number",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "8",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "2",
+        "parentID": "2"
+      },
+      {
+        "sectionName": "Affinity Summary",
+        "sectionEdit": "0",
+        "data": [],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "BUSINESS_APP_NAME",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "HOST",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "DEPENDENT_APPLICATION",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "DEPENDENT_HOST",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "4",
+        "parentID": "4"
+      },
+      {
+        "sectionName": "Affinity Diagram",
+        "sectionEdit": "0",
+        "data": [],
+        "attributes": [],
+        "sectionID": "5",
+        "parentID": "5"
+      },
+      {
+        "sectionName": "Regulatory, Data Security & Compliance Requirement",
+        "sectionEdit": "1",
+        "data": [],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Regulatory, Data Security & Compliance Requirement",
+            "attributeType": "Textarea",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "6",
+        "parentID": "6"
+      },
+      {
+        "sectionName": "CPU Utilization",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "1.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "16.2"
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "1.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "45.22"
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "3.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "56.54"
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "1.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "54.49"
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "1.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "15.1"
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "100.0"
+              },
+              {
+                "values": "37.67"
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "CPU",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "MIN_CPU(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "MAX_CPU(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "AVG_CPU(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "7",
+        "parentID": "7"
+      },
+      {
+        "sectionName": "Memory Utilization",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "26.0"
+              },
+              {
+                "values": "80.0"
+              },
+              {
+                "values": "53.78"
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "33.0"
+              },
+              {
+                "values": "84.0"
+              },
+              {
+                "values": "59.99"
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "32.0"
+              },
+              {
+                "values": "85.0"
+              },
+              {
+                "values": "61.84"
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "27.0"
+              },
+              {
+                "values": "88.0"
+              },
+              {
+                "values": "59.64"
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "25.0"
+              },
+              {
+                "values": "79.0"
+              },
+              {
+                "values": "51.85"
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": "24.0"
+              },
+              {
+                "values": "79.0"
+              },
+              {
+                "values": "49.61"
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Memory",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "MIN_MEM(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "MAX_MEM(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "AVG_MEM(%)",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "8",
+        "parentID": "8"
+      },
+      {
+        "sectionName": "Disk Utilization",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "62.2"
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "61.5"
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "62.1"
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "63.2"
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "75.8"
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "69.0"
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "% Used",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "9",
+        "parentID": "9"
+      },
+      {
+        "sectionName": "Target Server Details",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "Windows 2019"
+              },
+              {
+                "values": "IIS 10.0"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "NA"
+              },
+              {
+                "values": "Windows Upgrade+IIS Upgrade"
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "target OS",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "target WEB",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "target APP",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "target DB",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "Migration Pattern",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "8",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "10",
+        "parentID": "10"
+      },
+      {
+        "sectionName": "Shared Server Details",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "mitw000284"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000285"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000286"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000287"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000291"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "mitw000292"
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": ""
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Other applications deployed on this server",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Application ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "11",
+        "parentID": "11"
+      },
+      {
+        "sectionName": "Migration Strategy & Approach",
+        "sectionEdit": "1",
+        "data": [],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Migration Strategy Overview",
+            "attributeType": "Textarea",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "12",
+        "parentID": "12"
+      },
+      {
+        "sectionName": "Migration Approach Diagram",
+        "sectionEdit": "1",
+        "data": [],
+        "attributes": [],
+        "sectionID": "13",
+        "parentID": "12"
+      },
+      {
+        "sectionName": "Migration Pattern & Technique",
+        "sectionEdit": "1",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "ReFactor"
+              },
+              {
+                "values": "Re-Install (Use of Azure Migrate & Manual Re-install)"
+              },
+              {
+                "values": "ReFactor of the application doesn't may require code changes based on DB/ MW compatibility with Target Platform. It involves version upgrade of OS, Application components or moving to PaaS services in Cloud."
+              }
+            ],
+            "rowID": "0"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Migration",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Migration Technique",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "Pattern Description",
+            "attributeType": "Textarea",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "14",
+        "parentID": "12"
+      },
+      {
+        "sectionName": "Target Cloud & Architecture",
+        "sectionEdit": "0",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "Azure"
+              }
+            ],
+            "rowID": "0"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "Target Cloud",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "15",
+        "parentID": "15"
+      },
+      {
+        "sectionName": "Target Server Specifications",
+        "sectionEdit": "1",
+        "data": [
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000284"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "0"
+              }
+            ],
+            "rowID": "0"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000285"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "1"
+              }
+            ],
+            "rowID": "1"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000286"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "2"
+              }
+            ],
+            "rowID": "2"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000287"
+              },
+              {
+                "values": "Production"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "3"
+              }
+            ],
+            "rowID": "3"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000291"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "4"
+              }
+            ],
+            "rowID": "4"
+          },
+          {
+            "dataValues": [
+              {
+                "values": "TARGET_SERVER_MITW000292"
+              },
+              {
+                "values": "QA"
+              },
+              {
+                "values": "2.0"
+              },
+              {
+                "values": "8.0"
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": " "
+              },
+              {
+                "values": "5"
+              }
+            ],
+            "rowID": "5"
+          }
+        ],
+        "attributes": [
+          {
+            "attributeID": "1",
+            "attributeOptions": [],
+            "attributeName": "ServerName",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "2",
+            "attributeOptions": [],
+            "attributeName": "Target Environment",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          },
+          {
+            "attributeID": "3",
+            "attributeOptions": [],
+            "attributeName": "vCPU",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "4",
+            "attributeOptions": [],
+            "attributeName": "Memory",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "5",
+            "attributeOptions": [],
+            "attributeName": "Size",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "6",
+            "attributeOptions": [],
+            "attributeName": "Temp Storage",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "7",
+            "attributeOptions": [],
+            "attributeName": "Max Nics",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "8",
+            "attributeOptions": [],
+            "attributeName": "Max Data Disks",
+            "attributeType": "Text",
+            "attributeEdit": "1"
+          },
+          {
+            "attributeID": "9",
+            "attributeOptions": [],
+            "attributeName": "ID",
+            "attributeType": "Text",
+            "attributeEdit": "0"
+          }
+        ],
+        "sectionID": "16",
+        "parentID": "15"
+      },
+      {
+        "sectionName": "Target Application and Operational Characterstics",
+        "sectionEdit": "0",
+        "data": [],
+        "attributes": [],
+        "sectionID": "17",
+        "parentID": "15"
+      },
+      {
+        "sectionName": "Architectural Diagram",
+        "sectionEdit": "1",
+        "data": [],
+        "attributes": [],
+        "sectionID": "33",
+        "parentID": "33"
+      }
+    ]
+  },
+  "_class": "com.ibm.dc.cmat.entity.BluePrintDocument"
+}
